@@ -1,15 +1,15 @@
 class script(object):
     START_TXT = """Hello {},
 Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
+    HELP_TXT = """ʜᴇʏ {}
 Here is the help for my COMMANDS."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Syrus_143_hpy>亗 𝕊𝗔𝗡𝗗𝗬 |⚡|</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ ʟɪʙʀᴀʀʏ: ɪᴅᴋ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ɪᴅᴋ
 ✯ ʀᴇǫ ɢʀᴏᴜᴘ: <a href=https://t.me/+vRdXzcif8qM1Yjc1>ᴅᴋ | ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ</a>"
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ɪᴅᴋ
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v1.0.1 [ ɪᴅᴋ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Lazy Princess is an open source project. 
 - Owner - <a href=https://t.me/PharmacistBoy1>♨️sᴘᴇᴄɪᴀʟɪsᴛ♨️™️</a>"  
