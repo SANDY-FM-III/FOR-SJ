@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+  <img src="https://telegra.ph/file/14ea49625341fb27b4df6.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
   <b> Lazy Princess BOT </b>
