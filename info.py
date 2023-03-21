@@ -43,7 +43,12 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'filmymenchat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION",f"{script.CAPTION_TXT}") 
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","""<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+▫️<a href=https://t.me/Filmy_Men>ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/Filmy_Rog>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""")
+
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a>/10 \n\n💛 Please Share Us 💛\n\n‌‌‌‌Powered by: @SJ_AJ_BACKUP_MOVIE")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), False)
