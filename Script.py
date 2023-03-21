@@ -106,7 +106,7 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
-   CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+   CAPTION_TXT = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/SJ_AJ_BACKUP_MOVIE>ᴄʜᴀɴɴᴇʟ </a>
 ▫️<a href=https://t.me/SJ_AJ_Movies_Request>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
