@@ -4,11 +4,11 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how su
     HELP_TXT = """ʜᴇʏ {}
 Here is the help for my COMMANDS."""
     ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ: {}
-✥ ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/Sandeepjhaa>🖤sᴊ ᴀᴊ ❤</a>"  
+✥ ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/Sandeepjhaa>🖤sᴊ ᴀᴊ ❤</a>
 ✥ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Syrus_143_hpy>亗 𝕊𝗔𝗡𝗗𝗬 |⚡|</a>
 ✥ ʟɪʙʀᴀʀʏ: ɪᴅᴋ
 ✥ ʟᴀɴɢᴜᴀɢᴇ: ɪᴅᴋ
-✥ ʀᴇǫ ɢʀᴏᴜᴘ: <a href=https://t.me/SJ_AJ_BACKUP_MOVIE>sᴊ ᴀᴊ ᴍᴏᴠɪᴇs🍿</a>"
+✥ ʀᴇǫ ɢʀᴏᴜᴘ: <a href=https://t.me/SJ_AJ_BACKUP_MOVIE>sᴊ ᴀᴊ ᴍᴏᴠɪᴇs🍿</a>
 ✥ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ɪᴅᴋ
 ✥ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v1.0.1 [ ɪᴅᴋ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
