@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/newyear2023group')
+                InlineKeyboardButton('🎬 мσνιєѕ 🎥', url='https://t.me/SJ_AJ_BACKUP_MOVIE')
             ],
             [
-                InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🙆🏻 нєℓρ 🙁', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/newyear2023group')
+            InlineKeyboardButton('🧞‍♀️ ѕєαя¢н 🧐', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🎬 Мσνιєѕ 🎥', url='https://t.me/SJ_AJ_BACKUP_MOVIE')
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
+            InlineKeyboardButton('🙆🏻 нєℓρ 🦾', callback_data='help'),
+            InlineKeyboardButton('♥️ αвσυт ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,34 +67,34 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 ʝσιη υρ∂αтєѕ ¢нαηηєℓ", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe":
+        if message.command[1] != "ѕυвѕ¢яιвє":
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton(" 🔄 тяу αgαιη", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 тяу αgαιη", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**ρℓєαѕє ʝσιη му υρ∂αтєѕ ¢нαηηєℓ тσ υѕє тнιѕ вσт!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ α∂∂ мє To уσυя gяσυρѕ ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/newyear2023group')
+            InlineKeyboardButton('🧞‍♀️ ѕєαя¢н 🧐', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🎬 мσνιєѕ 🎥', url='https://t.me/newyear2023group')
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
+            InlineKeyboardButton('🙆🏻 нєℓρ 🙁', callback_data='help'),
+            InlineKeyboardButton('♥️ αвσυт ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -111,7 +111,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("Please wait")
+        sts = await message.reply("ρℓєαѕє ωαιт")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -121,7 +121,7 @@ async def start(client, message):
                     msgs=json.loads(file_data.read())
             except:
                 await sts.edit("FAILED")
-                return await client.send_message(LOG_CHANNEL, "UNABLE TO OPEN FILE.")
+                return await client.send_message(LOG_CHANNEL, "υηαвℓє тσ σρєη ƒιℓє.")
             os.remove(file)
             BATCH_FILES[file_id] = msgs
         for msg in msgs:
@@ -292,9 +292,9 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("𝘙𝘶𝘬𝘬𝘫𝘢 𝘉𝘴𝘥𝘬 𝘐𝘯𝘥𝘦𝘹 𝘏𝘰 𝘙𝘩𝘢...⏳", quote=True)
     else:
-        await message.reply('Reply to file with /delete which you want to delete', quote=True)
+        await message.reply('𝘙𝘦𝘱𝘭𝘺 𝘵𝘰 𝘧𝘪𝘭𝘦 𝘸𝘪𝘵𝘩 /delete 𝘸𝘩𝘪𝘤𝘩 𝘺𝘰𝘶 𝘞𝘢𝘯𝘵 𝘵𝘰 𝘥𝘦𝘭𝘦𝘵𝘦', quote=True)
         return
 
     for file_type in ("document", "video", "audio"):
