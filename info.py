@@ -45,8 +45,8 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","""<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/Filmy_Men>ᴄʜᴀɴɴᴇʟ </a>
-▫️<a href=https://t.me/Filmy_Rog>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
+▫️<a href=https://t.me/SJ_AJ_BACKUP_MOVIE>ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/SJ_AJ_Movies_Request>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""")
 
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
