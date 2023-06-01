@@ -51,7 +51,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jayprobot/SANDY-N-BOT">
+<a href="https://heroku.com/deploy?template=https://github.com/SANDY-FM-III/FOR-SJ">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
