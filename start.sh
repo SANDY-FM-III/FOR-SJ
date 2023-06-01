@@ -4,17 +4,17 @@ then
 
   echo "Cloning main Repository"
 
-  git clone https://github.com/EvamariaTG/EvaMaria.git /EvaMaria
+  git clone https://github.com/SANDY-FM-III/FOR-SJ /FOR-SJ
 
 else
 
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
 
-  git clone $UPSTREAM_REPO /EvaMaria
+  git clone $UPSTREAM_REPO /FOR-SJ
 
 fi
 
-cd /EvaMaria
+cd /FOR-SJ
 
 pip3 install -U -r requirements.txt
 
